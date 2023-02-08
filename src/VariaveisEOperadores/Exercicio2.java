@@ -1,8 +1,8 @@
-package Aula;
+package VariaveisEOperadores;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Exercicio2 {
 
 	public static void main(String[] args) {
 		float n1,n2,n3,n4;
@@ -17,9 +17,10 @@ public class Exercicio4 {
 		System.out.println("Digite numero 4: ");
 		n4 =  leia.nextFloat();
 		
-		float calculo = (n1*n2)-(n3*n4);
-		
-		System.out.println("A diferença é de: "+ calculo);
+		float calcularMedia = (n1+n2+n3+n4)/4;
+
+		System.out.printf("A média é: %.1f", calcularMedia);
+
 	}
 
 }

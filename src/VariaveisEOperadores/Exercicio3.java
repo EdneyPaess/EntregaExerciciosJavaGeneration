@@ -1,8 +1,8 @@
-package Aula;
+package VariaveisEOperadores;
 
 import java.util.Scanner;
 
-public class exercicio3 {
+public class Exercicio3 {
 
 	public static void main(String[] args) {
 		float salarioBruno, adicionalNoturno, horasExtras, descontos;
@@ -24,6 +24,7 @@ public class exercicio3 {
 		
 		
 		System.out.println("Seu salario liquido é de:: "+salarioLiquido);
+
 	}
 
 }
